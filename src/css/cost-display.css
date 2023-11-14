@@ -1,0 +1,30 @@
+.cost-display ul {
+  list-style: none;
+  padding: 0;
+  font-size: 0.9em; /* Smaller font for the cost breakdown */
+}
+
+.cost-display li {
+  margin-bottom: 5px;
+}
+
+.total-cost {
+  font-size: 1.2em;
+  font-weight: bold;
+  color: red; /* Red color for Total Twilio Cost */
+  margin-top: 10px;
+}
+
+.customer-charge {
+  font-size: 1.2em;
+  font-weight: bold;
+  color: black; /* Black color for Charge to Customer */
+  margin-top: 10px;
+}
+
+.profit-display {
+  font-size: 1.2em;
+  font-weight: bold;
+  color: green; /* Green color for profit */
+  margin-top: 10px;
+}
